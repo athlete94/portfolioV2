@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 80px;
+
+    column-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+
+    font-weight: 300;
+    font-size: 1.0625rem;
+    line-height: 175%;
+}
+
+.footer::before {
+    background: #ddd;
+    border-radius: 1000px;
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+
+.footer a {
+    color: #4b6cc1;
+}

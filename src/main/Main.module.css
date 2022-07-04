@@ -1,0 +1,25 @@
+.main {
+    margin-bottom: 100px;
+}
+
+.main_box {
+    padding: 40px;
+    background-color: #f1f8fa;
+    border-radius: 5px;
+}
+
+.main_box h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 120%;
+    color: #191a1d;
+}
+
+.main_box p {
+    font-size: 1.375rem;
+}
+
+.main_box a {
+    text-decoration: none;
+    color: #4b6cc1;
+}

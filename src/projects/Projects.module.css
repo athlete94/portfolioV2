@@ -1,0 +1,87 @@
+.title {
+    margin-bottom: 60px;
+}
+.title p {
+    font-size: 1.375rem;
+}
+
+.project_item {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 60px
+}
+
+.img_item {
+    width: 60%;
+}
+
+.project_img {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project_img{
+    transition: transform .35s ease;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 3%), 0 5px 30px rgb(0 0 0 / 10%);
+}
+
+.project_img:hover {
+    transform: scale(1.05);
+}
+
+
+/*/description/*/
+
+.description {
+    padding-left: 60px;
+    width: 40%;
+}
+
+.description h2 {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.description a{
+    color: #191a1d;
+    transition: color .35s ease;
+}
+
+.description a:hover {
+    color: #4b6cc1;
+}
+
+.description p {
+    font-size: 1.375rem;
+}
+
+
+/*Button*/
+
+
+.btn a {
+    font-size: 1rem;
+    padding: 17px 25px;
+    background: #4b6cc1;
+    border: 2px solid #ffffff;
+    border-radius: 1000px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Rubik, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+    transition: all .35s ease;
+
+}
+.btn a:hover {
+    background-color: white;
+    border: 2px solid #4b6cc1;
+    transform: scale(1.05);
+}
+

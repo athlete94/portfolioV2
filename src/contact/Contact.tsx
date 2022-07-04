@@ -1,11 +1,12 @@
 import React from 'react';
+import s from './Contact.module.css'
 
-const Contact = () => {
+export const Contact = () => {
     return (
-        <div>
-            
+        <div className={s.contact}>
+            <form action="">
+
+            </form>
         </div>
     );
 };
-
-export default Contact;
