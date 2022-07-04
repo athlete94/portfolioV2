@@ -2,9 +2,23 @@ import React from 'react';
 import s from './Projects.module.css'
 import todolist from "../assets/image/todolist.png";
 import social_network from "../assets/image/social_network.png";
+import {Project} from "./Project/Project";
 
 const Projects = () => {
+    let descriptionTodo = 'Simple to do app for your tasks.' +
+        'Using redux as state management. ' +
+        'Libraries used: redux, react-redux, axios, redux-thunk, mui.'
 
+    let descriptionNetwork = 'Social network for developers. It is educational project. ' +
+        'Libraries used: react-redux, redux-thunk, react-router-dom 6, axios, formik.'
+
+    let todolistImg = {
+        backgroundImage: `url(${todolist})`
+    }
+
+    let socialNetworkImg = {
+        backgroundImage: `url(${social_network})`
+    }
 
     return (
         <div className={s.projects}>
@@ -13,42 +27,19 @@ const Projects = () => {
                 <p>Some of my spare time projects.</p>
             </div>
 
-            <div className={s.project_item}>
-                <div className={s.img_item}>
-                    <a href="https://athlete94.github.io/it-incubator-todolist-ts-01/">
-                        <div className={s.project_img} style={{backgroundImage: `url(${todolist})`}}> </div>
-                    </a>
-                </div>
-                <div className={s.description}>
-                    <h2>
-                        <a href="https://athlete94.github.io/it-incubator-todolist-ts-01/">Todolist</a>
-                    </h2>
-                    <p>A to do app.</p>
+            <Project
+                style={todolistImg}
+                link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
+                title={'Todolist'}
+                description={descriptionTodo}
 
-                    <div className={s.btn}>
-                        <a href="https://athlete94.github.io/it-incubator-todolist-ts-01/">View site</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className={s.project_item}>
-                <div className={s.img_item}>
-                    <a href="https://athlete94.github.io/TheWayOfSamuraiTS/">
-                        <div className={s.project_img} style={{backgroundImage: `url(${social_network})`}}> </div>
-                    </a>
-                </div>
-                <div className={s.description}>
-                    <h2>
-                        <a href="https://athlete94.github.io/TheWayOfSamuraiTS/">Social Network</a>
-                    </h2>
-                    <p>A social network for developers.</p>
-
-                    <div className={s.btn}>
-                        <a href="https://athlete94.github.io/TheWayOfSamuraiTS/">View site</a>
-                    </div>
-                </div>
-            </div>
-
+            />
+            <Project
+                style={socialNetworkImg}
+                link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
+                title={'Social network'}
+                description={descriptionNetwork}
+            />
 
         </div>
     );

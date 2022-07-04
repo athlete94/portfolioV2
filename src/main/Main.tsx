@@ -13,7 +13,9 @@ export const Main = () => {
                     My preferred tools are Typescript, React.js and Redux.
                 </p>
                 <p>
-                    I'm on <a href="https://github.com/athlete94">GitHub</a>, <a href="">LinkedIn</a> and <a href="">Instagram</a>.
+                    I'm on <a href="https://github.com/athlete94">GitHub</a>,
+                    <a href="https://linkedin.com">LinkedIn</a>
+                    and <a href="https://instagram.com/khamraev_94">Instagram</a>.
                 </p>
             </div>
         </div>

@@ -1,0 +1,38 @@
+.contact {
+    max-width: 675px;
+    margin: 0 auto;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.formItem label {
+    display: block;
+    padding-bottom: 10px;
+    color: #888;
+    font-size: 1rem;
+
+    font-weight: 600;
+    letter-spacing: .0625rem;
+    text-transform: uppercase;
+}
+
+.input {
+    font-size: 1rem;
+    padding: 15px;
+    height: 15px;
+    transition: box-shadow .35s ease, border-color .35s ease;
+
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 3%);
+    font-weight: 300;
+
+    margin-bottom: 30px;
+}
+
+.formItem textarea {
+    height: 50px;
+}

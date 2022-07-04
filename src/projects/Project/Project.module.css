@@ -1,0 +1,55 @@
+.project_item {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 60px
+}
+
+.img_item {
+    width: 60%;
+}
+
+.project_img {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project_img{
+    transition: transform .35s ease;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 3%), 0 5px 30px rgb(0 0 0 / 10%);
+}
+
+.project_img:hover {
+    transform: scale(1.05);
+}
+
+
+/*/description/*/
+
+.description {
+    padding-left: 60px;
+    width: 40%;
+}
+
+.description h2 {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.description h2 a{
+    color: #191a1d;
+    transition: color .35s ease;
+}
+
+.description h2 a:hover {
+    color: #4b6cc1;
+}
+
+.description p {
+    font-size: 1.375rem;
+}
+
+

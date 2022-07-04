@@ -26,3 +26,21 @@
 .footer a {
     color: #4b6cc1;
 }
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    background-size: cover;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    transition: transform .35s ease;
+
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
