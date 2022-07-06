@@ -27,19 +27,21 @@ const Projects = () => {
                 <p>Some of my spare time projects.</p>
             </div>
 
-            <Project
-                style={todolistImg}
-                link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
-                title={'Todolist'}
-                description={descriptionTodo}
+            <div className={s.projects_block}>
+                <Project
+                    style={todolistImg}
+                    link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
+                    title={'Todolist'}
+                    description={descriptionTodo}
 
-            />
-            <Project
-                style={socialNetworkImg}
-                link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
-                title={'Social network'}
-                description={descriptionNetwork}
-            />
+                />
+                <Project
+                    style={socialNetworkImg}
+                    link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
+                    title={'Social network'}
+                    description={descriptionNetwork}
+                />
+            </div>
 
         </div>
     );

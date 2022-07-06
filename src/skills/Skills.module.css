@@ -1,0 +1,22 @@
+.skills_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    flex-wrap: wrap;
+}
+
+.skills_item {
+    background-color: #4b6cc1;
+    width: 300px;
+    height: 200px;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+    border-radius: 5px;
+}

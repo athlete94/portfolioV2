@@ -53,3 +53,9 @@
 }
 
 
+@media screen and (max-width: 900px) {
+    .project_item {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
