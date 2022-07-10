@@ -8,9 +8,10 @@ type ProjectPropsType = {
     link: string
     title: string
     description: string
+    text?: string
 }
 
-export const Project = ({style, link, title, description}: ProjectPropsType) => {
+export const Project = ({style, link, title, description, text}: ProjectPropsType) => {
     return (
         <div className={s.project_item}>
             <div className={s.img_item}>
@@ -22,6 +23,7 @@ export const Project = ({style, link, title, description}: ProjectPropsType) => 
                 <h2>
                     <a href={link}>{title}</a>
                 </h2>
+                <p>{text}</p>
                 <p>{description}</p>
 
                 <div className={st.btn}>

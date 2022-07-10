@@ -39,6 +39,7 @@ const Projects = () => {
                     style={socialNetworkImg}
                     link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
                     title={'Social network'}
+                    text={'In progress...'}
                     description={descriptionNetwork}
                 />
             </div>

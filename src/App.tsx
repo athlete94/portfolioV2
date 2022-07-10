@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import {Navbar} from "./nav/Navbar";
 import {HashRouter, Route, Routes} from "react-router-dom";
@@ -9,6 +9,11 @@ import {Main} from "./main/Main";
 import Footer from "./footer/Footer";
 
 function App() {
+
+    useEffect(() => {
+        alert('Portfolio in progress')
+    },[])
+
   return (
       <HashRouter>
           <div className="App">
