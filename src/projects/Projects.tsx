@@ -3,6 +3,8 @@ import s from './Projects.module.css'
 import todolist from "../assets/image/todolist.png";
 import social_network from "../assets/image/social_network.png";
 import {Project} from "./Project/Project";
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
     let descriptionTodo = 'Simple to do app for your tasks.' +
@@ -28,20 +30,25 @@ const Projects = () => {
             </div>
 
             <div className={s.projects_block}>
-                <Project
-                    style={todolistImg}
-                    link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
-                    title={'Todolist'}
-                    description={descriptionTodo}
+                <Fade bottom>
+                    <Project
+                        style={todolistImg}
+                        link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
+                        title={'Todolist'}
+                        description={descriptionTodo}
 
-                />
-                <Project
-                    style={socialNetworkImg}
-                    link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
-                    title={'Social network'}
-                    text={'In progress...'}
-                    description={descriptionNetwork}
-                />
+                    />
+                </Fade>
+
+                <Fade bottom>
+                    <Project
+                        style={socialNetworkImg}
+                        link={'https://athlete94.github.io/TheWayOfSamuraiTS/'}
+                        title={'Social network'}
+                        text={'In progress...'}
+                        description={descriptionNetwork}
+                    />
+                </Fade>
             </div>
 
         </div>

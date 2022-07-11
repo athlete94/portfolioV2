@@ -15,7 +15,7 @@ export const Navbar = () => {
 
             <div className={s.navbar_section}>
                 <div className={s.logo}>
-                    <NavLink to={'/main'}>Aza Dev</NavLink>
+                    <NavLink to={'/'}>Aza Dev</NavLink>
                 </div>
                 <nav className={s.menu}>
                     <NavLink to={'/projects'} className={({ isActive }) => isActive  ? s.active : s.menu_item}>PROJECTS</NavLink>
