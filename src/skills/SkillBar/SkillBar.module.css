@@ -1,0 +1,59 @@
+
+.skills_bar {
+    width: 500px;
+    height: 500px;
+}
+
+.skills_bar h3 {
+    margin: 5px;
+}
+
+.bar_item {
+    margin-bottom: 32px;
+}
+
+.bar_container {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 5px;
+
+    text-align: right;
+}
+
+.bar_skill {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.html {
+    width: 85%;
+    background-color: #ff9650;
+}
+
+.css {
+    width: 80%;
+    background-color: #445de5;
+}
+
+.js {
+    width: 70%;
+    background-color: #ffe850;
+}
+
+.react {
+    width: 70%;
+    background-color: #7a5be0;
+}
+
+
+.rest {
+    width: 67%;
+    background-color: #50a5ff;
+}
+
+.git {
+    width: 65%;
+    background-color: coral;
+}
+

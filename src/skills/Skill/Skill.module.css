@@ -1,0 +1,23 @@
+
+.skills_item {
+    width: 200px;
+    height: 190px;
+
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #789ae2;
+}
+
+.skills_item h3 {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+}
+
+.skill_icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+}
