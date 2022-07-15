@@ -3,6 +3,7 @@ import s from "./Project.module.css";
 import st from '../../common/styles/style.module.css'
 
 
+
 type ProjectPropsType = {
     style: any
     link: string

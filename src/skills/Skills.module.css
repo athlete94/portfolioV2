@@ -1,46 +1,105 @@
 .skills {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
+    flex-wrap: wrap;
 }
 
 
-.skills_description {
-    width: 500px;
-    height: 100%;
-}
-
-.skills_block {
+.description_block{
+    width: 450px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    width: 500px;
-
+    flex-wrap: wrap;
 }
 
 .skills_item {
-    background-color: #4b6cc1;
-    width: 500px;
-    height: 50px;
-    text-transform: uppercase;
+    width: 200px;
+    height: 190px;
 
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
+    padding: 5px 5px 5px 10px;
     margin-bottom: 30px;
     border-radius: 5px;
+    border: 1px solid #789ae2;
 }
 
-.text {
+.skills_item h3 {
     display: flex;
-    justify-content: center;
+    gap: 4%;
     align-items: center;
-    width: 200px;
-    height: 100%;
+}
 
-    background-color: #a00b0b;
+.skill_icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+}
 
+
+/*bar*/
+
+.skills_bar {
+    width: 500px;
+    height: 500px;
+}
+
+.skills_bar h3 {
+    margin: 5px;
+}
+
+.bar_item {
+    margin-bottom: 32px;
+}
+
+.bar_container {
+    width: 100%;
+    background-color: #ccc;
     border-radius: 5px;
+
+    text-align: right;
+}
+
+.bar_skill {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.html {
+    width: 85%;
+    background-color: #ff9650;
+}
+
+.css {
+    width: 80%;
+    background-color: #445de5;
+}
+
+.js {
+    width: 70%;
+    background-color: #ffe850;
+}
+
+.react {
+    width: 70%;
+    background-color: #7a5be0;
+}
+
+
+.rest {
+    width: 67%;
+    background-color: #50a5ff;
+}
+
+.git {
+    width: 65%;
+    background-color: coral;
+}
+
+
+@media screen and (max-width: 435px) {
+    .description_block {
+        justify-content: center;
+    }
 }
