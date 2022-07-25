@@ -10,9 +10,6 @@ import Footer from "./footer/Footer";
 
 function App() {
 
-    useEffect(() => {
-        alert('Portfolio in progress')
-    },[])
 
   return (
       <HashRouter>

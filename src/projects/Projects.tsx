@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Projects.module.css'
-import todolist from "../assets/image/todolist.png";
-import social_network from "../assets/image/social_network.png";
+import todolist from "../assets/image/projects/todolist.png";
+import social_network from "../assets/image/projects/social_network.png";
 import {Project} from "./Project/Project";
 // @ts-ignore
 import Fade from 'react-reveal/Fade';

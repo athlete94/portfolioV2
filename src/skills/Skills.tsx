@@ -2,12 +2,12 @@ import React from 'react';
 import s from './Skills.module.css'
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
-import html from "../assets/image/html.png";
-import js from "../assets/image/js.png";
-import react from "../assets/image/react.png";
-import api from "../assets/image/api.png";
-import npm from "../assets/image/npm.png";
-import other from "../assets/image/other.png";
+import html from "../assets/image/icons/html.png";
+import js from "../assets/image/icons/js.png";
+import react from "../assets/image/icons/react.png";
+import api from "../assets/image/icons/api.png";
+import npm from "../assets/image/icons/npm.png";
+import other from "../assets/image/icons/other.png";
 import SkillBar from "./SkillBar/SkillBar";
 import {Skill} from "./Skill/Skill";
 
@@ -46,9 +46,9 @@ const Skills = () => {
             <div className={s.skills}>
                 <Fade bottom>
                     <div className={s.description_block}>
-                        <Skill style={htmlIcon} skills={skillsHtml} title={'HTML/CSS'}/>
-                        <Skill style={jsIcon} skills={skillsJS} title={'Javascript'}/>
                         <Skill style={reactIcon} skills={skillsReact} title={'React'}/>
+                        <Skill style={jsIcon} skills={skillsJS} title={'Javascript'}/>
+                        <Skill style={htmlIcon} skills={skillsHtml} title={'HTML/CSS'}/>
                         <Skill style={restApiIcon} skills={skillsRestApi} title={'Rest-API'}/>
                         <Skill style={npmIcon} skills={skillsNPM} title={'NPM'}/>
                         <Skill style={otherIcon} skills={skillsOther} title={'Other'}/>

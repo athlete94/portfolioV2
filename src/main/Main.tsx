@@ -10,7 +10,7 @@ export const Main = () => {
                 <div className={s.main_box}>
                     <h1>👋 Hi, i am Azamat.</h1>
                     <p>
-                        I'm a frontend developer from Saint Petersburg, Russia.
+                        I'm a frontend developer from Velikiy Novgorod, Russia.
                         Currently freelancing.
                         In my spare time I solve CodeWars and create my own projects.
                         My preferred tools are Typescript, React.js and Redux.

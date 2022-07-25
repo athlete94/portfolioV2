@@ -1,20 +1,23 @@
 import React from 'react';
 import s from './Footer.module.css'
-import instagram from '../assets/image/instagram.png'
-import github from '../assets/image/github.png'
-import vk from '../assets/image/vk.png'
-import linkedIn from '../assets/image/linkedIn.png'
+import telegram from '../assets/image/icons/telegram.png'
+import github from '../assets/image/icons/github.png'
+import codeWars from '../assets/image/icons/codewars.svg'
+import linkedIn from '../assets/image/icons/linkedIn.png'
 
 const Footer = () => {
 
-    let instagramIcon = {
-        backgroundImage: `url(${instagram})`
+    let telegramIcon = {
+        backgroundImage: `url(${telegram})`
     }
     let githubIcon = {
         backgroundImage: `url(${github})`
     }
-    let vkIcon = {
-        backgroundImage: `url(${vk})`
+    let codeWarsIcon = {
+        backgroundImage: `url(${codeWars})`,
+        width: '40px',
+        height: '40px',
+        marginTop: '3px'
     }
     let linkedInIcon = {
         backgroundImage: `url(${linkedIn})`
@@ -30,11 +33,11 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/azamat-khamraev-8969b423b/">
                     <div className={s.icon} style={linkedInIcon}> </div>
                 </a>
-                <a href="//vk.com/athlete_94">
-                    <div className={s.icon} style={vkIcon}> </div>
+                <a href="https://t.me/athlete94">
+                    <div className={s.icon} style={telegramIcon}> </div>
                 </a>
-                <a href="https://instagram.com/khamraev_94">
-                    <div className={s.icon} style={instagramIcon}> </div>
+                <a href="https://www.codewars.com/users/khamraev94">
+                    <div className={s.icon} style={codeWarsIcon}> </div>
                 </a>
 
             </div>
