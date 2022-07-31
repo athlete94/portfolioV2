@@ -33,7 +33,7 @@ const Projects = () => {
                 <Fade bottom>
                     <Project
                         style={todolistImg}
-                        link={'https://athlete94.github.io/it-incubator-todolist-ts-01/'}
+                        link={'https://athlete94.github.io/todolist-ts-01/'}
                         title={'Todolist'}
                         description={descriptionTodo}
 

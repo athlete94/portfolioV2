@@ -37,6 +37,12 @@ export const Contact = () => {
             formik.resetForm()
             alert(JSON.stringify(values));
             axios.post('http://localhost/:3010/sendMessage', values)
+                .then((res) => {
+                    alert(res.data)
+                })
+                .catch(err => {
+                    alert(err.message)
+                })
         },
     })
 
